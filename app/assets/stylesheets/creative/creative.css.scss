@@ -180,7 +180,7 @@ header {
     min-height: auto;
     text-align: center;
     color: #fff;
-    background-image: asset-data-url("creative/lettuce-2.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), asset-data-url("creative/lettuce.jpg");
     background-position: center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -485,7 +485,7 @@ body {
     height: auto;
     text-align: center;
     color: #fff;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), asset-data-url("creative/lettuce.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), asset-data-url("creative/garlic.jpg");
 
     background-position: center;
 
@@ -494,6 +494,11 @@ body {
     background-size: cover;
     -o-background-size: cover;
 
+}
+
+.broccoli-bullet{
+    text-align:left;
+    font-size:9px
 }
 
 
